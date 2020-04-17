@@ -1,0 +1,62 @@
+.card-body{
+    max-height: 72px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+    background-color: white;
+}
+.pagination .page-item:first-child .page-link,.pagination .page-item:last-child .page-link{
+    border-radius: 7px;
+}
+.pagination .page-link {
+    border-radius: 7px;
+    margin-left: 8px;
+    margin-right: 0.1em;
+    color: black;
+    font-weight: 400;
+    background-color: #fff;
+    border: 2px solid #967117;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    font-weight: 400;
+    background-color: #967117;
+    border-color: #967117;
+    border-radius: 7px;
+    border: 2px solid #967117;
+}
+.page-item:last-child .page-link {
+    border-top-right-radius: 7px; 
+    border-bottom-right-radius: 7px;
+}
+.edit-table {
+    width: 87% !important;
+    margin: auto;
+    margin-top: 90px;
+    background-color: white;
+}
+.table td{
+    border-top: 1px solid #767117;
+    padding-bottom: 1px;
+}
+.table-header{
+    color: 	#8B0000;
+    font-weight: 500;
+}
+.right-button{
+    text-align: left;
+}
+.left-button{
+    text-align: right;
+}
+.btn-primary{
+    border-color: #767117;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    color: #767117;
+    margin-top: 40px;
+    width: 115px;
+    text-align: center;
+    padding-right: 30px;
+    font-weight: 400;
+    padding-left: 30px;
+}

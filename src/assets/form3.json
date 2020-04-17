@@ -1,0 +1,495 @@
+{
+    "display": "form",
+    "settings": {
+        "pdf": {
+            "id": "1ec0f8ee-6685-5d98-a847-26f67b67d6f0",
+            "src": "https://files.form.io/pdf/5692b91fd1028f01000407e3/file/1ec0f8ee-6685-5d98-a847-26f67b67d6f0"
+        }
+    },
+    "components": [
+        {
+            "label": "Table",
+            "cellAlignment": "left",
+            "customClass": "edit-table",
+            "tableView": false,
+            "key": "table",
+            "type": "table",
+            "numCols": 5,
+            "input": false,
+            "rows": [
+                [
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Code",
+                                "customClass": "table-header",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Name",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html1",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Description",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html2",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Details",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html3",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Active/Inactive",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html20",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Code",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html4",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Name",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html5",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Description",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html6",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Details",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html7",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "Active",
+                                "tableView": false,
+                                "calculateServer": false,
+                                "key": "active1",
+                                "type": "checkbox",
+                                "input": true,
+                                "defaultValue": false
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Code",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html8",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Name",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html9",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Description",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html10",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Details",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html11",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "Active",
+                                "tableView": false,
+                                "calculateServer": false,
+                                "key": "active2",
+                                "type": "checkbox",
+                                "input": true,
+                                "defaultValue": false
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Code",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html12",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Name",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html13",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Description",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html14",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Details",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html15",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "Active",
+                                "tableView": false,
+                                "calculateServer": false,
+                                "key": "active3",
+                                "type": "checkbox",
+                                "input": true,
+                                "defaultValue": false
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Code",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html16",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Name",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html17",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Description",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html18",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality Details",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html19",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "Active",
+                                "tableView": false,
+                                "calculateServer": false,
+                                "key": "active4",
+                                "type": "checkbox",
+                                "input": true,
+                                "defaultValue": false
+                            }
+                        ]
+                    }
+                ]
+            ],
+            "numRows": 5
+        },
+        {
+            "label": "Save",
+            "action": "saveState",
+            "showValidations": false,
+            "tableView": true,
+            "key": "save",
+            "type": "button",
+            "input": true
+        }
+    ]
+}

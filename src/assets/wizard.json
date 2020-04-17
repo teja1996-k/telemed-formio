@@ -1,0 +1,150 @@
+{
+    "display": "wizard",
+    "settings": {
+        "pdf": {
+            "id": "1ec0f8ee-6685-5d98-a847-26f67b67d6f0",
+            "src": "https://files.form.io/pdf/5692b91fd1028f01000407e3/file/1ec0f8ee-6685-5d98-a847-26f67b67d6f0"
+        }
+    },
+    "components": [
+        {
+            "title": "Administrator",
+            "label": "",
+            "tag":"img",
+            "attrs": [
+                {
+                    "attr": "src",
+                    "value": "assets/thumbay-logo.jpg"
+                }
+            ],
+            "customClass": "wizard-button",
+            "type": "panel",
+            "key": "page1",
+            "input": false,
+            "tableView": false,
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "showCancel": false,
+                "next": false
+            },
+            "components": []
+        },
+        {
+            "title": "Administrator",
+            "label": "",
+            "customClass": "wizard-button",
+            "type": "panel",
+            "key": "page1",
+            "input": false,
+            "tableView": false,
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "showCancel": false,
+                "next": false
+            },
+            "components": []
+        },
+        {
+            "title": "Speciality Master",
+            "label": "",
+            "customClass": "wizard-button",
+            "type": "panel",
+            "key": "page2",
+            "input": false,
+            "tableView": false,
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": false,
+                "cancel": false,
+                "next": false
+            },
+            "collapsible": false,
+            "components": []
+        },
+        {
+            "title": "Service Master",
+            "label": "",
+            "customClass": "wizard-button",
+            "type": "panel",
+            "key": "page3",
+            "input": false,
+            "tableView": false,
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": false,
+                "cancel": false,
+                "next": false
+            },
+            "collapsible": false,
+            "components": []
+        },
+        {
+            "title": "Doctor Master",
+            "label": "",
+            "customClass":"wizard-button",
+            "type": "panel",
+            "key": "page4",
+            "input": false,
+            "tableView": false,
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": false,
+                "cancel": false,
+                "next": false
+            },
+            "collapsible": false,
+            "components": []
+        },
+        {
+            "title": "User",
+            "label": "",
+            "customClass": "wizard-button",
+            "type": "panel",
+            "key": "page5",
+            "input": false,
+            "tableView": false,
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": false,
+                "cancel": false,
+                "next": false
+            },
+            "collapsible": false,
+            "components": []
+        },
+        {
+            "title": "Marketing Link Generation",
+            "label": "",
+            "customClass": "wizard-button",
+            "type": "panel",
+            "key": "page6",
+            "input": false,
+            "tableView": false,
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": false,
+                "cancel": false,
+                "next": false
+            },
+            "collapsible": false,
+            "components": []
+        },
+        {
+            "title": "Reports",
+            "label": "",
+            "customClass": "wizard-button",
+            "type": "panel",
+            "key": "page7",
+            "input": false,
+            "tableView": false,
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": false,
+                "cancel": false,
+                "next": false
+            },
+            "collapsible": false,
+            "components": []
+        }
+    ]
+}
