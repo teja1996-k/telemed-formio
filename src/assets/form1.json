@@ -202,26 +202,35 @@
                         ]
                     }
                 ],
-                [
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "attrs": [
-                                    {
-                                        "attr": "",
-                                        "value": ""
-                                    }
-                                ],
-                                "content": "Facilities",
-                                "refreshOnChange": false,
-                                "tableView": false,
-                                "key": "html7",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
+                [ 
+                   {
+                    "components": [
+                        {
+                            "label": "HTML",
+                            "tag": "a",
+                            "attrs": [
+                                {
+                                    "attr": "href",
+                                    "value": "/admin"
+                                },
+                                {
+                                    "attr": "(click)",
+                                    "value": "displayDialog()"
+                                },
+                                {
+                                    "attr": "routerlink",
+                                    "value": "/admin"
+                                }
+                            ],
+                            "content": "Facility",
+                            "refreshOnChange": false,
+                            "tableView": false,
+                            "key": "html",
+                            "type": "htmlelement",
+                            "input": false
+                        }
+                    ]
+                },
                     {
                         "components": [
                             {

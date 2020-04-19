@@ -7,28 +7,7 @@
         }
     },
     "components": [
-        {
-            "title": "Administrator",
-            "label": "",
-            "tag":"img",
-            "attrs": [
-                {
-                    "attr": "src",
-                    "value": "assets/thumbay-logo.jpg"
-                }
-            ],
-            "customClass": "wizard-button",
-            "type": "panel",
-            "key": "page1",
-            "input": false,
-            "tableView": false,
-            "breadcrumbClickable": true,
-            "buttonSettings": {
-                "showCancel": false,
-                "next": false
-            },
-            "components": []
-        },
+      
         {
             "title": "Administrator",
             "label": "",

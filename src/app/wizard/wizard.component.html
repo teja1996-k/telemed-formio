@@ -1,6 +1,7 @@
 <app-header></app-header>
+<!-- <a routerLink="/admin" (click)="getMethod()">ON Click render method</a> -->
 <div>
 	<div class="card-body">
-    <formio [form]="wizardForm" [renderOptions]="renderOptions" ></formio>
+    <formio [form]="wizardForm" [renderOptions]="renderOptions" [options]="options" ></formio>
   </div>
 </div>
