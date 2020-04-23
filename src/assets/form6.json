@@ -1,0 +1,109 @@
+{
+    "display": "form",
+    "settings": {
+        "pdf": {
+            "id": "1ec0f8ee-6685-5d98-a847-26f67b67d6f0",
+            "src": "https://files.form.io/pdf/5692b91fd1028f01000407e3/file/1ec0f8ee-6685-5d98-a847-26f67b67d6f0"
+        }
+    },
+    "components": [
+        {
+            "label": "Table",
+            "cellAlignment": "left",
+            "customClass": "edit-table marketing",
+            "tableView": false,
+            "key": "table",
+            "type": "table",
+            "numRows": 1,
+            "input": false,
+            "rows": [
+                [
+                    {
+                        "components": [
+                            {
+                                "label": "",
+                                "tableView": true,
+                                "data": {
+                                    "values": [
+                                        {
+                                            "label": "",
+                                            "value": ""
+                                        }
+                                    ]
+                                },
+                                "selectThreshold": 0.3,
+                                "placeholder": "Facility",
+                                "calculateServer": false,
+                                "key": "facility",
+                                "type": "select",
+                                "indexeddb": {
+                                    "filter": {}
+                                },
+                                "input": true
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "",
+                                "tableView": true,
+                                "data": {
+                                    "values": [
+                                        {
+                                            "label": "",
+                                            "value": ""
+                                        }
+                                    ]
+                                },
+                                "selectThreshold": 0.3,
+                                "calculateServer": false,
+                                "key": "location",
+                                "type": "select",
+                                "indexeddb": {
+                                    "filter": {}
+                                },
+                                "input": true
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "",
+                                "tableView": true,
+                                "data": {
+                                    "values": [
+                                        {
+                                            "label": "",
+                                            "value": ""
+                                        }
+                                    ]
+                                },
+                                "selectThreshold": 0.3,
+                                "calculateServer": false,
+                                "key": "telehealth",
+                                "type": "select",
+                                "indexeddb": {
+                                    "filter": {}
+                                },
+                                "input": true
+                            }
+                        ]
+                    }
+                ]
+            ]
+        },
+        {
+            "label": "generate",
+            "placeholder": "generate link",
+            "customClass":"marketing-text",
+            "spellcheck": true,
+            "tableView": true,
+            "calculateServer": false,
+            "key": "generate",
+            "type": "url",
+            "input": true
+        }
+    ]
+}

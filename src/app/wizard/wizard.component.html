@@ -2,6 +2,71 @@
 <!-- <a routerLink="/admin" (click)="getMethod()">ON Click render method</a> -->
 <div>
 	<div class="card-body">
-    <formio [form]="wizardForm" [renderOptions]="renderOptions" [options]="options" ></formio>
+    
+    <!-- <formio [form]="wizardForm" [renderOptions]="renderOptions" [options]="options" ></formio> -->
+    <nav class="navbar navbar-expand-sm">
+      <!-- <a class="navbar-brand" href="#">
+        Navbar
+      </a> -->
+      <img src="../../assets/thumbay-logo.jpg" height=55>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse sidenav" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="margin-left: 20px;">
+          <li class="nav-item" [ngClass]="{'active':isClicked[0]}" (click)="changeActive(0)">
+            <a  class="nav-link" routerLink="admin"  routerLinkActive="active">Administrator </a>         
+          </li>
+          <li class="nav-item" [ngClass]="{'active':isClicked[1]}" (click)="changeActive(1)">
+            <a class="nav-link" routerLink="speciality"  routerLinkActive="active">Speciality Master</a>
+          </li>
+          <li class="nav-item" [ngClass]="{'active':isClicked[2]}" (click)="changeActive(2)">
+            <a class="nav-link" routerLink="service">Service Master</a>
+          </li>
+          <li class="nav-item" [ngClass]="{'active':isClicked[3]}" (click)="changeActive(3)">
+            <a class="nav-link" routerLink="doctor">Doctor Master</a>
+          </li>
+          <li class="nav-item" [ngClass]="{'active':isClicked[4]}" (click)="changeActive(4)">
+            <a class="nav-link" routerLink="user">User</a>
+          </li>
+          <li class="nav-item" [ngClass]="{'active':isClicked[5]}" (click)="changeActive(5)">
+            <a class="nav-link" routerLink="marketing">Marketing Link Generation</a>
+          </li>
+          <li class="nav-item" [ngClass]="{'active':isClicked[6]}" (click)="changeActive(6)">
+            <a class="nav-link">Reports</a>
+          </li>
+         
+        </ul>
+      </div>
+    </nav>
+
+
   </div>
 </div>
+<!-- <app-breadcrumb></app-breadcrumb> -->
+<!-- <breadcrumb></breadcrumb> -->
+<breadcrumb #parent>  
+  <ol class="breadcrumb">
+    <li *ngIf="parent.breadcrumbs[0].displayName !='Administrator'" class="breadcrumb-item">
+      <a href="" routerLink="admin">Administrator</a>
+    </li>
+    <ng-template ngFor let-route [ngForOf]="parent.breadcrumbs">
+      <li *ngIf="!route.terminal" class="breadcrumb-item">
+        <a href="" [routerLink]="[route.url]">{{ route.displayName }}</a>
+      </li>
+      <li *ngIf="route.displayName != 'Administrator'" class="breadcrumb-item">
+        Facility
+      </li>
+      <li *ngIf="route.displayName != 'Administrator'" class="breadcrumb-item">
+        Location
+      </li>
+      <li *ngIf="route.displayName != 'Administrator'" class="breadcrumb-item">
+        Tele health service
+      </li>
+      <li *ngIf="route.terminal" class="breadcrumb-item active" aria-current="page">{{ route.displayName }}</li>
+    </ng-template>
+  </ol>
+</breadcrumb>  
+<router-outlet></router-outlet>

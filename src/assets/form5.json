@@ -1,4 +1,3 @@
-
 {
     "display": "form",
     "settings": {
@@ -11,12 +10,12 @@
         {
             "label": "Table",
             "cloneRows": true,
-            "cellAlignment": "center",
+            "cellAlignment": "left",
             "customClass": "edit-table",
-            "tableView": true,
+            "tableView": false,
             "key": "table",
             "type": "table",
-            "numCols": 9,
+            "numCols": 11,
             "input": false,
             "rows": [
                 [
@@ -30,7 +29,7 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Facility",
+                                "content": "Doctor code",
                                 "refreshOnChange": false,
                                 "customClass": "table-header",
                                 "tableView": false,
@@ -50,7 +49,7 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Location",
+                                "content": "Name",
                                 "refreshOnChange": false,
                                 "customClass": "table-header",
                                 "tableView": false,
@@ -70,7 +69,7 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Tele health service",
+                                "content": "Email",
                                 "customClass": "table-header",
                                 "refreshOnChange": false,
                                 "tableView": false,
@@ -90,7 +89,7 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Specialities",
+                                "content": "Mobile",
                                 "customClass": "table-header",
                                 "refreshOnChange": false,
                                 "tableView": false,
@@ -110,7 +109,7 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Lab Services",
+                                "content": "Qualification",
                                 "customClass": "table-header",
                                 "refreshOnChange": false,
                                 "tableView": false,
@@ -130,10 +129,9 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Doctors",
+                                "content": "Desigination",
                                 "customClass": "table-header",
                                 "refreshOnChange": false,
-
                                 "tableView": false,
                                 "key": "html5",
                                 "type": "htmlelement",
@@ -151,7 +149,7 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Users",
+                                "content": "Photo",
                                 "customClass": "table-header",
                                 "refreshOnChange": false,
                                 "tableView": false,
@@ -171,11 +169,11 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Show Price Flag",
+                                "content": "Language",
                                 "customClass": "table-header",
                                 "refreshOnChange": false,
                                 "tableView": false,
-                                "key": "html35",
+                                "key": "html7",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -191,52 +189,8 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Active / Inactive",
+                                "content": "Speciality",
                                 "customClass": "table-header",
-                                "refreshOnChange": false,
-                                "tableView": false,
-                                "key": "html36",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    }
-                ],
-                [ 
-                   {
-                    "components": [
-                        {
-                            "label": "HTML",
-                            "tag": "a",
-                            "attrs": [
-                                {
-                                    "attr": "href",
-                                    "value": "#"
-                                }
-                            ],
-                            "content": "Facility",
-                            "refreshOnChange": false,
-                            "tableView": false,
-                            "key": "html",
-                            "attributes": {
-                                "click": "d"
-                            },
-                            "type": "htmlelement",
-                            "input": false
-                        }
-                    ]
-                },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "attrs": [
-                                    {
-                                        "attr": "",
-                                        "value": ""
-                                    }
-                                ],
-                                "content": "Location",
                                 "refreshOnChange": false,
                                 "tableView": false,
                                 "key": "html8",
@@ -255,7 +209,8 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Tele health service",
+                                "content": "Expertise",
+                                "customClass": "table-header",
                                 "refreshOnChange": false,
                                 "tableView": false,
                                 "key": "html9",
@@ -268,17 +223,38 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/specialities.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Active / InActive",
+                                "customClass": "table-header",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons speciality",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html9",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Doctor code",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html10",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -288,17 +264,16 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/service.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Name",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons service",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html11",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -308,61 +283,363 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/doctors.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Email",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons doctor",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html12",
                                 "type": "htmlelement",
                                 "input": false
                             }
                         ]
                     },
                     {
-                    "components": [
-                        {
-                            "label": "HTML",
-                            "tag": "img",
-                            "attrs": [
-                                {
-                                    "attr": "src",
-                                    "value": "assets/users.png"
-                                }
-                            ],
-                            "refreshOnChange": false,
-                            "customClass": "table-icons user",
-                            "tableView": false,
-                            "key": "html",
-                            "type": "htmlelement",
-                            "input": false
-                        }
-                    ]
-                },
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Mobile",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html13",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
                     {
                         "components": [
                             {
-                                "label": "",
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Qualification",
+                                "refreshOnChange": false,
                                 "tableView": false,
-                                "customClass":"switch",
+                                "key": "html14",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Desigination",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html15",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Photo",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html16",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "English/Hindi/Urdu",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html17",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html18",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Expertise",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html19",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "Active",
+                                "tableView": false,
                                 "calculateServer": false,
-                                "key": "showPriceFlag2",
+                                "key": "active1",
                                 "type": "checkbox",
                                 "input": true,
                                 "defaultValue": false
                             }
                         ]
+                    }
+                ],
+                [
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Doctor code",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html20",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
                     },
                     {
                         "components": [
                             {
-                                "label": "",
-                                "customClass":"switch",
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Name",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html21",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Email",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html22",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Mobile",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html23",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Qualification",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html24",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Desigination",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html25",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Photo",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html26",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "English/Hindi/Urdu",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html27",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html28",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Expertise",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html29",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "Active",
                                 "tableView": false,
                                 "calculateServer": false,
                                 "key": "active2",
@@ -384,10 +661,10 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Facilities",
+                                "content": "Doctor code",
                                 "refreshOnChange": false,
                                 "tableView": false,
-                                "key": "html14",
+                                "key": "html30",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -403,10 +680,10 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Location",
+                                "content": "Name",
                                 "refreshOnChange": false,
                                 "tableView": false,
-                                "key": "html15",
+                                "key": "html31",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -422,10 +699,10 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Tele health service",
+                                "content": "Email",
                                 "refreshOnChange": false,
                                 "tableView": false,
-                                "key": "html16",
+                                "key": "html32",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -435,17 +712,16 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/specialities.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Mobile",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons speciality",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html33",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -455,17 +731,16 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/service.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Qualification",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons service",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html34",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -475,17 +750,16 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/doctors.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Desigination",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons doctor",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html35",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -495,17 +769,16 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/users.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Photo",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons user",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html36",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -514,22 +787,64 @@
                     {
                         "components": [
                             {
-                                "label": "",
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "English/Hindi/Urdu",
+                                "refreshOnChange": false,
                                 "tableView": false,
-                                "customClass":"switch",
-                                "calculateServer": false,
-                                "key": "showPriceFlag3",
-                                "type": "checkbox",
-                                "input": true,
-                                "defaultValue": false
+                                "key": "html37",
+                                "type": "htmlelement",
+                                "input": false
                             }
                         ]
                     },
                     {
                         "components": [
                             {
-                                "label": "",
-                                "customClass":"switch",
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html38",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Expertise",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html39",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "Active",
                                 "tableView": false,
                                 "calculateServer": false,
                                 "key": "active3",
@@ -551,10 +866,10 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Facilities",
+                                "content": "Doctor code",
                                 "refreshOnChange": false,
                                 "tableView": false,
-                                "key": "html21",
+                                "key": "html40",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -570,10 +885,10 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Location",
+                                "content": "Name",
                                 "refreshOnChange": false,
                                 "tableView": false,
-                                "key": "html22",
+                                "key": "html41",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -589,10 +904,10 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Tele health service",
+                                "content": "Email",
                                 "refreshOnChange": false,
                                 "tableView": false,
-                                "key": "html23",
+                                "key": "html42",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -602,17 +917,16 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/specialities.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Mobile",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons speciality",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html43",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -622,17 +936,16 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/service.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Qualification",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons service",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html44",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -642,17 +955,16 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/doctors.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Desigination",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons doctor",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html45",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -662,17 +974,16 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/users.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Photo",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons user",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html46",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -681,192 +992,67 @@
                     {
                         "components": [
                             {
-                                "label": "",
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "English/Hindi/Urdu",
+                                "refreshOnChange": false,
                                 "tableView": false,
-                                "customClass":"switch",
-                                "calculateServer": false,
-                                "key": "showPriceFlag4",
-                                "type": "checkbox",
-                                "input": true,
-                                "defaultValue": false
+                                "key": "html47",
+                                "type": "htmlelement",
+                                "input": false
                             }
                         ]
                     },
                     {
                         "components": [
                             {
-                                "label": "",
-                                "customClass":"switch",
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Speciality",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html48",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Expertise",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html49",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "Active",
                                 "tableView": false,
                                 "calculateServer": false,
                                 "key": "active4",
-                                "type": "checkbox",
-                                "input": true,
-                                "defaultValue": false
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "attrs": [
-                                    {
-                                        "attr": "",
-                                        "value": ""
-                                    }
-                                ],
-                                "content": "Facilities",
-                                "refreshOnChange": false,
-                                "tableView": false,
-                                "key": "html28",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "attrs": [
-                                    {
-                                        "attr": "",
-                                        "value": ""
-                                    }
-                                ],
-                                "content": "Location",
-                                "refreshOnChange": false,
-                                "tableView": false,
-                                "key": "html29",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "attrs": [
-                                    {
-                                        "attr": "",
-                                        "value": ""
-                                    }
-                                ],
-                                "content": "Tele health service",
-                                "refreshOnChange": false,
-                                "tableView": false,
-                                "key": "html30",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "tag": "img",
-                                "attrs": [
-                                    {
-                                        "attr": "src",
-                                        "value": "assets/specialities.png"
-                                    }
-                                ],
-                                "refreshOnChange": false,
-                                "customClass": "table-icons speciality",
-                                "tableView": false,
-                                "key": "html",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "tag": "img",
-                                "attrs": [
-                                    {
-                                        "attr": "src",
-                                        "value": "assets/service.png"
-                                    }
-                                ],
-                                "refreshOnChange": false,
-                                "customClass": "table-icons service",
-                                "tableView": false,
-                                "key": "html",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "tag": "img",
-                                "attrs": [
-                                    {
-                                        "attr": "src",
-                                        "value": "assets/doctors.png"
-                                    }
-                                ],
-                                "refreshOnChange": false,
-                                "customClass": "table-icons doctor",
-                                "tableView": false,
-                                "key": "html",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "tag": "img",
-                                "attrs": [
-                                    {
-                                        "attr": "src",
-                                        "value": "assets/users.png"
-                                    }
-                                ],
-                                "refreshOnChange": false,
-                                "customClass": "table-icons user",
-                                "tableView": false,
-                                "key": "html",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "",
-                                "tableView": false,
-                                "customClass":"switch",
-                                "calculateServer": false,
-                                "key": "showPriceFlag5",
-                                "type": "checkbox",
-                                "input": true,
-                                "defaultValue": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "",
-                                "customClass":"switch",
-                                "tableView": false,
-                                "calculateServer": false,
-                                "key": "active5",
                                 "type": "checkbox",
                                 "input": true,
                                 "defaultValue": false
@@ -924,6 +1110,6 @@
                 }
             ]
         }
-
+        
     ]
 }

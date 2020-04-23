@@ -1,4 +1,3 @@
-
 {
     "display": "form",
     "settings": {
@@ -8,15 +7,16 @@
         }
     },
     "components": [
+
         {
             "label": "Table",
             "cloneRows": true,
-            "cellAlignment": "center",
+            "cellAlignment": "left",
             "customClass": "edit-table",
-            "tableView": true,
+            "tableView": false,
             "key": "table",
             "type": "table",
-            "numCols": 9,
+            "numCols": 7,
             "input": false,
             "rows": [
                 [
@@ -30,9 +30,9 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Facility",
-                                "refreshOnChange": false,
+                                "content": "First Name",
                                 "customClass": "table-header",
+                                "refreshOnChange": false,
                                 "tableView": false,
                                 "key": "html",
                                 "type": "htmlelement",
@@ -50,9 +50,9 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Location",
-                                "refreshOnChange": false,
+                                "content": "Last Name",
                                 "customClass": "table-header",
+                                "refreshOnChange": false,
                                 "tableView": false,
                                 "key": "html1",
                                 "type": "htmlelement",
@@ -70,7 +70,7 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Tele health service",
+                                "content": "DOB",
                                 "customClass": "table-header",
                                 "refreshOnChange": false,
                                 "tableView": false,
@@ -90,7 +90,7 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Specialities",
+                                "content": "Mobile no",
                                 "customClass": "table-header",
                                 "refreshOnChange": false,
                                 "tableView": false,
@@ -110,7 +110,7 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Lab Services",
+                                "content": "Email ID",
                                 "customClass": "table-header",
                                 "refreshOnChange": false,
                                 "tableView": false,
@@ -130,52 +130,11 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Doctors",
+                                "content": "Role",
                                 "customClass": "table-header",
                                 "refreshOnChange": false,
-
                                 "tableView": false,
                                 "key": "html5",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "attrs": [
-                                    {
-                                        "attr": "",
-                                        "value": ""
-                                    }
-                                ],
-                                "content": "Users",
-                                "customClass": "table-header",
-                                "refreshOnChange": false,
-                                "tableView": false,
-                                "key": "html6",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "attrs": [
-                                    {
-                                        "attr": "",
-                                        "value": ""
-                                    }
-                                ],
-                                "content": "Show Price Flag",
-                                "customClass": "table-header",
-                                "refreshOnChange": false,
-                                "tableView": false,
-                                "key": "html35",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -195,37 +154,14 @@
                                 "customClass": "table-header",
                                 "refreshOnChange": false,
                                 "tableView": false,
-                                "key": "html36",
+                                "key": "html5",
                                 "type": "htmlelement",
                                 "input": false
                             }
                         ]
                     }
                 ],
-                [ 
-                   {
-                    "components": [
-                        {
-                            "label": "HTML",
-                            "tag": "a",
-                            "attrs": [
-                                {
-                                    "attr": "href",
-                                    "value": "#"
-                                }
-                            ],
-                            "content": "Facility",
-                            "refreshOnChange": false,
-                            "tableView": false,
-                            "key": "html",
-                            "attributes": {
-                                "click": "d"
-                            },
-                            "type": "htmlelement",
-                            "input": false
-                        }
-                    ]
-                },
+                [
                     {
                         "components": [
                             {
@@ -236,7 +172,45 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Location",
+                                "content": "First Name",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html6",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Last Name",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html7",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "DOB",
                                 "refreshOnChange": false,
                                 "tableView": false,
                                 "key": "html8",
@@ -255,7 +229,7 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Tele health service",
+                                "content": "Mobile no",
                                 "refreshOnChange": false,
                                 "tableView": false,
                                 "key": "html9",
@@ -268,17 +242,16 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/specialities.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Email ID",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons speciality",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html10",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -288,17 +261,16 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/service.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Role",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons service",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html11",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -307,62 +279,136 @@
                     {
                         "components": [
                             {
-                                "label": "HTML",
-                                "tag": "img",
-                                "attrs": [
-                                    {
-                                        "attr": "src",
-                                        "value": "assets/doctors.png"
-                                    }
-                                ],
-                                "refreshOnChange": false,
-                                "customClass": "table-icons doctor",
+                                "label": "Active",
                                 "tableView": false,
-                                "key": "html",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                    "components": [
-                        {
-                            "label": "HTML",
-                            "tag": "img",
-                            "attrs": [
-                                {
-                                    "attr": "src",
-                                    "value": "assets/users.png"
-                                }
-                            ],
-                            "refreshOnChange": false,
-                            "customClass": "table-icons user",
-                            "tableView": false,
-                            "key": "html",
-                            "type": "htmlelement",
-                            "input": false
-                        }
-                    ]
-                },
-                    {
-                        "components": [
-                            {
-                                "label": "",
-                                "tableView": false,
-                                "customClass":"switch",
                                 "calculateServer": false,
-                                "key": "showPriceFlag2",
+                                "key": "active1",
                                 "type": "checkbox",
                                 "input": true,
                                 "defaultValue": false
                             }
                         ]
+                    }
+                ],
+                [
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "First Name",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html12",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
                     },
                     {
                         "components": [
                             {
-                                "label": "",
-                                "customClass":"switch",
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Last Name",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html13",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "DOB",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html14",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Mobile no",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html15",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Email ID",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html16",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Role",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html17",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "Active",
                                 "tableView": false,
                                 "calculateServer": false,
                                 "key": "active2",
@@ -384,10 +430,10 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Facilities",
+                                "content": "First Name",
                                 "refreshOnChange": false,
                                 "tableView": false,
-                                "key": "html14",
+                                "key": "html18",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -403,10 +449,10 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Location",
+                                "content": "Last Name",
                                 "refreshOnChange": false,
                                 "tableView": false,
-                                "key": "html15",
+                                "key": "html19",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -422,10 +468,10 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Tele health service",
+                                "content": "DOB",
                                 "refreshOnChange": false,
                                 "tableView": false,
-                                "key": "html16",
+                                "key": "html20",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -435,17 +481,16 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/specialities.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Mobile no",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons speciality",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html21",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -455,17 +500,16 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/service.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Email ID",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons service",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html22",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -475,17 +519,16 @@
                         "components": [
                             {
                                 "label": "HTML",
-                                "tag": "img",
                                 "attrs": [
                                     {
-                                        "attr": "src",
-                                        "value": "assets/doctors.png"
+                                        "attr": "",
+                                        "value": ""
                                     }
                                 ],
+                                "content": "Role",
                                 "refreshOnChange": false,
-                                "customClass": "table-icons doctor",
                                 "tableView": false,
-                                "key": "html",
+                                "key": "html23",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -494,42 +537,7 @@
                     {
                         "components": [
                             {
-                                "label": "HTML",
-                                "tag": "img",
-                                "attrs": [
-                                    {
-                                        "attr": "src",
-                                        "value": "assets/users.png"
-                                    }
-                                ],
-                                "refreshOnChange": false,
-                                "customClass": "table-icons user",
-                                "tableView": false,
-                                "key": "html",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "",
-                                "tableView": false,
-                                "customClass":"switch",
-                                "calculateServer": false,
-                                "key": "showPriceFlag3",
-                                "type": "checkbox",
-                                "input": true,
-                                "defaultValue": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "",
-                                "customClass":"switch",
+                                "label": "Active",
                                 "tableView": false,
                                 "calculateServer": false,
                                 "key": "active3",
@@ -551,10 +559,10 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Facilities",
+                                "content": "First Name",
                                 "refreshOnChange": false,
                                 "tableView": false,
-                                "key": "html21",
+                                "key": "html24",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -570,10 +578,10 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Location",
+                                "content": "Last Name",
                                 "refreshOnChange": false,
                                 "tableView": false,
-                                "key": "html22",
+                                "key": "html25",
                                 "type": "htmlelement",
                                 "input": false
                             }
@@ -589,125 +597,15 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Tele health service",
+                                "content": "DOB",
                                 "refreshOnChange": false,
                                 "tableView": false,
-                                "key": "html23",
+                                "key": "html26",
                                 "type": "htmlelement",
                                 "input": false
                             }
                         ]
                     },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "tag": "img",
-                                "attrs": [
-                                    {
-                                        "attr": "src",
-                                        "value": "assets/specialities.png"
-                                    }
-                                ],
-                                "refreshOnChange": false,
-                                "customClass": "table-icons speciality",
-                                "tableView": false,
-                                "key": "html",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "tag": "img",
-                                "attrs": [
-                                    {
-                                        "attr": "src",
-                                        "value": "assets/service.png"
-                                    }
-                                ],
-                                "refreshOnChange": false,
-                                "customClass": "table-icons service",
-                                "tableView": false,
-                                "key": "html",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "tag": "img",
-                                "attrs": [
-                                    {
-                                        "attr": "src",
-                                        "value": "assets/doctors.png"
-                                    }
-                                ],
-                                "refreshOnChange": false,
-                                "customClass": "table-icons doctor",
-                                "tableView": false,
-                                "key": "html",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "tag": "img",
-                                "attrs": [
-                                    {
-                                        "attr": "src",
-                                        "value": "assets/users.png"
-                                    }
-                                ],
-                                "refreshOnChange": false,
-                                "customClass": "table-icons user",
-                                "tableView": false,
-                                "key": "html",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "",
-                                "tableView": false,
-                                "customClass":"switch",
-                                "calculateServer": false,
-                                "key": "showPriceFlag4",
-                                "type": "checkbox",
-                                "input": true,
-                                "defaultValue": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "",
-                                "customClass":"switch",
-                                "tableView": false,
-                                "calculateServer": false,
-                                "key": "active4",
-                                "type": "checkbox",
-                                "input": true,
-                                "defaultValue": false
-                            }
-                        ]
-                    }
-                ],
-                [
                     {
                         "components": [
                             {
@@ -718,7 +616,26 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Facilities",
+                                "content": "Mobile no",
+                                "refreshOnChange": false,
+                                "tableView": false,
+                                "key": "html27",
+                                "type": "htmlelement",
+                                "input": false
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "label": "HTML",
+                                "attrs": [
+                                    {
+                                        "attr": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "content": "Email ID",
                                 "refreshOnChange": false,
                                 "tableView": false,
                                 "key": "html28",
@@ -737,7 +654,7 @@
                                         "value": ""
                                     }
                                 ],
-                                "content": "Location",
+                                "content": "Role",
                                 "refreshOnChange": false,
                                 "tableView": false,
                                 "key": "html29",
@@ -749,124 +666,10 @@
                     {
                         "components": [
                             {
-                                "label": "HTML",
-                                "attrs": [
-                                    {
-                                        "attr": "",
-                                        "value": ""
-                                    }
-                                ],
-                                "content": "Tele health service",
-                                "refreshOnChange": false,
-                                "tableView": false,
-                                "key": "html30",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "tag": "img",
-                                "attrs": [
-                                    {
-                                        "attr": "src",
-                                        "value": "assets/specialities.png"
-                                    }
-                                ],
-                                "refreshOnChange": false,
-                                "customClass": "table-icons speciality",
-                                "tableView": false,
-                                "key": "html",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "tag": "img",
-                                "attrs": [
-                                    {
-                                        "attr": "src",
-                                        "value": "assets/service.png"
-                                    }
-                                ],
-                                "refreshOnChange": false,
-                                "customClass": "table-icons service",
-                                "tableView": false,
-                                "key": "html",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "tag": "img",
-                                "attrs": [
-                                    {
-                                        "attr": "src",
-                                        "value": "assets/doctors.png"
-                                    }
-                                ],
-                                "refreshOnChange": false,
-                                "customClass": "table-icons doctor",
-                                "tableView": false,
-                                "key": "html",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "HTML",
-                                "tag": "img",
-                                "attrs": [
-                                    {
-                                        "attr": "src",
-                                        "value": "assets/users.png"
-                                    }
-                                ],
-                                "refreshOnChange": false,
-                                "customClass": "table-icons user",
-                                "tableView": false,
-                                "key": "html",
-                                "type": "htmlelement",
-                                "input": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "",
-                                "tableView": false,
-                                "customClass":"switch",
-                                "calculateServer": false,
-                                "key": "showPriceFlag5",
-                                "type": "checkbox",
-                                "input": true,
-                                "defaultValue": false
-                            }
-                        ]
-                    },
-                    {
-                        "components": [
-                            {
-                                "label": "",
-                                "customClass":"switch",
+                                "label": "Active",
                                 "tableView": false,
                                 "calculateServer": false,
-                                "key": "active5",
+                                "key": "active4",
                                 "type": "checkbox",
                                 "input": true,
                                 "defaultValue": false
@@ -924,6 +727,5 @@
                 }
             ]
         }
-
     ]
 }

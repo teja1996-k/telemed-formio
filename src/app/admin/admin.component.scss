@@ -1,6 +1,10 @@
-.text-success{
-    color : red !important
-}
-.sample{
-    font-size: 50px;
+@import "../../customSlider";
+.button-telehealth{
+    font-size: 14px;
+    font-family: Arial;
+    background-color: whitesmoke;
+    border: 1.1px solid #9D7C2D;
+    color: #9D7C2D;
+    border-radius: 8px;
+    padding: 8px 14px;
 }

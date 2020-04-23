@@ -1,0 +1,35 @@
+<h1 mat-dialog-title>Tele health Services</h1>
+<mat-divider></mat-divider>
+<div class="example-container">
+  <!-- <mat-select placeholder="Facilities" > -->
+    <mat-select [(ngModel)]="facility" multiple placeholder="Facilities">
+        <mat-label>facility</mat-label>
+      <mat-option *ngFor="let facili of facilityList" [value]="facili">
+        {{facili}}
+      </mat-option>
+    </mat-select>
+    <mat-select [(ngModel)]="location" multiple  placeholder="Location">
+      
+        <mat-label><b>Location</b></mat-label>
+      <mat-option *ngFor="let loca of locationList" [value]="loca">
+        {{loca}}
+      </mat-option> 
+    </mat-select>
+    <mat-select  [(ngModel)]="health" placeholder="Tele health Services">
+        <mat-label>Tele health service</mat-label>
+       
+ 
+      <mat-option *ngFor="let tele of telehealth" [value]="tele">
+        {{tele}}
+      
+    </mat-option>
+    </mat-select> 
+    <div class="toggle">
+    <mat-slide-toggle [(ngModel)]="checked1"labelPosition="before" >show price flags</mat-slide-toggle>
+    <mat-slide-toggle [(ngModel)]="checked2"labelPosition="before">Active/Inactive</mat-slide-toggle></div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="confirmSelection()" color="primary" aria-posinset="center">
+    Save
+  </button>
+</div>
